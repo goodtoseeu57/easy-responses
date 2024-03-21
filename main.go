@@ -7,8 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Print("initial work")
 	if err := cli.Execute(); err != nil {
-		fmt.Print("it works")
+		fmt.Print("initial work")
 	}
 }
